@@ -11,9 +11,12 @@ int main(void)
 	char c;
 	int d;
 	double i;
-	floats f;
+	float f;
 
-printf ("size of char is: ", "%c"\n, "size of int is: "%d", "size of double is: " "%i"\n, "size of flots is: " "%f", "c", "d", "i", "f");
+        printf ("The size of char is: %lu.\n", (unsigned long)sizeof(c));
+	printf ("The size of an int is: %lu.\n", (unsigned long)sizeof(d));
+	printf ("The size of a double is: %lu.\n", (unsigned long)sizeof(i));
+        printf ("The size of a float is: %LU.\n", (unsigned long)sizeof(f));
 
-        return (0);
+	return (0);
 }
