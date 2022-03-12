@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
-s*main: Entry point
+*main: Entry point
 *
-*Getting sizes of bytes
+* Getting sizes of bytes
 *
-*Description: Displays sizes of data types in bytes
+* Description: Displays sizes of data types in bytes
 *
-*return: Always return (0);
+* return: Always return (0);
 */
 int main (void);
 
@@ -25,7 +25,7 @@ printf ("The size of a long int: %lu byte(s)\n", (unsigned long)sizeof(n));
 printf ("The size of a double: %lu byte(s)\n", (unsigned long)sizeof(i));
 printf ("The size of a long long int: %lu byte(s)\n", sizeof(a));
 printf ("The size of a float is: %lu byte(s)\n", (unsigned long)sizeof(f));
-
-return (0);
  
+ return (0);
+
 }
