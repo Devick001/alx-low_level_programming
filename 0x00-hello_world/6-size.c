@@ -4,7 +4,7 @@
 *main: Getting sizes of bytes
 *
 *Description: Displays sizes of data types in bytes
-*return: Always return(0);
+*Return: Always return zero
 */
 int main(void)
 
