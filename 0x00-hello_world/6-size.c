@@ -8,12 +8,12 @@
 */
 int main(void)
 {
-	char c;
-	int d;
-	long n;
-	double i;
-	long long a;
-	float f;
+  char c;
+  int d;
+  long n;
+  double i;
+  long long a;
+  float f;
   
 printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
 printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(d));
