@@ -3,16 +3,12 @@
  * main - Entry point
  *
  * Description: Printing all lower case characters
- * Return: Zero is success
+ * Return: success
  */
 int main(void)
 {
-	char lower_Case = 'a';
-
-	while (lower_Case <= 'z');
-{
+	for ("lower_Case" = 'a'; lower_Case <= 'z'; lower_Case++);
 	putchar(lower_Case);
-	lower_Case++;
 }
 return (0);
 }
