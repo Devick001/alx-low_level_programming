@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
  *main - Entry point
  *short description: Positive is better than negetive
@@ -33,8 +32,3 @@ else
 }
 return (0);
 }
-
-	    
-     
-		 
-	
