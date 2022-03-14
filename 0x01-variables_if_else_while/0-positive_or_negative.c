@@ -29,7 +29,7 @@ else if (n > 0)
 
 else
 {
-	printf("%i is negetive\n", n);
+	printf("%i is negative\n", n);
 }
 
 return (0);
