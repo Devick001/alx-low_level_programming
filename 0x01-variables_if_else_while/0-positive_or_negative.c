@@ -6,7 +6,8 @@
  *main - Entry point
  *short description: Positive is better than negetive
  *
- *Description: Returns positive if n greater than 0, 0 if n is 0 and negetive otherwise
+ *Description: Returns positive if n greater than 0, 0 if n is 0
+ *and negetive otherwise
  *Return: zero always (suceess)
  */
 
@@ -26,17 +27,12 @@ else if (n > 0)
 {
 	printf("%i is positive\n", n);
 }
-
 else
 {
 	printf("%i is negative\n", n);
 }
-
 return (0);
-
 }
-
-
 
 	    
      
