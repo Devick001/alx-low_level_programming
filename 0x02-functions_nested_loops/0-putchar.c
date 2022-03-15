@@ -10,11 +10,12 @@
 void myString(char str)
 {
 	myString = "_putchar";
-	return(myString);
+	putchar(myString);
 }
+
 int main(void)
 {
-	putchar(myString);
+	myring();
 
 	return (0);
 }
