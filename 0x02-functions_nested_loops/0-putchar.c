@@ -6,11 +6,13 @@
  * Return:Zero(success)
  */
 
-int main(void)
+char main(void)
 {
 	char my_val[] = "_putchar";
 
-	putchar("%c\n", my_val);
+	putchar(my_val);
+
+	putchar('\n');
 
 	return (0);
 }
