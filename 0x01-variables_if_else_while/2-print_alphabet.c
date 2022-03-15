@@ -2,14 +2,19 @@
 /**
  * main - Entry point
  *
- * Description: Printing all lower case characters
- * Return: success
+ * Descrip1tion: printing lower case alphabets
+ * Return: Zero(success)
  */
 int main(void)
-{i
-	for (char lower_Case = 'a'; lower_Case <= 'z'; lower_Case++);
-	putchar(lower_Case);
+{
+	char lower_case;
+
+	for (lower_case = 'a'; lower_case <= 'z'; lower_case++);
+	{
+		putchar(lower_case);
+	}
+
+	return (0);
 }
-return (0);
-}
+
 
