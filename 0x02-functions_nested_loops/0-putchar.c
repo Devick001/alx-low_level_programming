@@ -1,18 +1,15 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
  * Description: Printing a string
- * Return:Zero(success)
+ * Return: zero always
  */
 
 int main(void)
 {
-	char my_val[] = "_putchar";
-
-	putchar(my_val);
-
-	putchar('\n');
+	putchar("_putchar\n");
 
 	return (0);
 }
