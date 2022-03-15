@@ -13,7 +13,7 @@ int main(void)
 	{
 	putchar(lower_case);
 	}
-	putchar('/');
+	putchar('\');
 	return (0);
 
 }
