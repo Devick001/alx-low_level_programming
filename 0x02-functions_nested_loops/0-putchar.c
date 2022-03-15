@@ -6,7 +6,7 @@
  * Return:Zero(success)
  */
 
-char main(void)
+int main(void)
 {
 	char my_val[] = "_putchar";
 
