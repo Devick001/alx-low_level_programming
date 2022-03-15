@@ -7,9 +7,14 @@
  * Return: zero always
  */
 
+void myString(char str)
+{
+	myString = "_putchar";
+	return(myString);
+}
 int main(void)
 {
-	putchar("_putchar\n");
+	putchar(myString);
 
 	return (0);
 }
