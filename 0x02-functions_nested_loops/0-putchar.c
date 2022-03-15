@@ -7,15 +7,14 @@
  * Return: zero always
  */
 
-void myString(char str)
+void myString()
 {
-	myString = "_putchar";
-	putchar(myString);
+	putchar("_putchar");
 }
 
 int main(void)
 {
-	myring();
+	myString();
 
 	return (0);
 }
