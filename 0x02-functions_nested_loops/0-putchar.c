@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * putchar - Returns binary equivalence of inputs
  * main - Entry point
  *
  * Description: Takes int data by default and returns binary
@@ -21,6 +20,5 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
-	
-}
 
+}
