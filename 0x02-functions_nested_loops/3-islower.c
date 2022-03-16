@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower(int c) - Checks for lower case characters
+ * _islower - Checks for lower case characters
  *
  * Return: Always 0.
  */
@@ -15,5 +15,4 @@ int _islower(int c)
 		return (0);
 	}
 }
-	
 
