@@ -1,16 +1,12 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- *_isupper - Prints uppercase alphabets
- *
- * Description: Getting uppecase letters
- * Return: Always 0.
+ * _isupper - Checks for uppercase characters
+ * @c: Prints s
+ * Return: 0 always
  */
 
 int _isupper(int c)
 {
-
 	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
@@ -19,4 +15,5 @@ int _isupper(int c)
 	{
 		return (0);
 	}
+
 }
