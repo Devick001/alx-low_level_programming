@@ -5,7 +5,7 @@
  * @c: Prints c
  *
  * Return: 0 always
- /*
+ */
 
 int _isupper(int c)
 {
