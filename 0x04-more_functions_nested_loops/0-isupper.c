@@ -10,7 +10,6 @@
 
 int _isupper(int c)
 {
-	char c;
 
 	if (c >= 'A'; && c <= 'Z')
 	{
@@ -20,8 +19,6 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-
-	_putchar(c);
 
 	return (0);
 	
