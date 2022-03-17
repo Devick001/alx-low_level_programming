@@ -20,4 +20,10 @@ int _isupper(int c)
 	{
 		return (0);
 	}
+
+	_putchar(c);
+
+	return (0);
+	
+
 }
