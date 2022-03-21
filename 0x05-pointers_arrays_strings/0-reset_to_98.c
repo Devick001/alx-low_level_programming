@@ -1,20 +1,18 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * reset_to_98(int *n) - Takes a pointer to an int as parameter
+ * reset_to_98 - Takes a pointer to an int
  *
- * Description: Accepts pointer to an int and updates its value to 98.
- * Return: Zero always
+ * Description: Learning pointers in C
+ * Return: Always 0.
  */
 
-void reset_to_98(int *n)
-{
-	int n;
-	n = 402;
+void reset_to_98(int *int)
 
-	printf("n = %d/n", n);
-	reset_to_98(&n);
-	printf("n = %d\n, n");
+{
+	int *n;
+	n = 98;
+
+
 	return (0);
 }
