@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * reset_to_98 - Takes a pointer to an int
@@ -11,6 +12,7 @@ void reset_to_98(int *int)
 
 {
 	int *n;
+
 	n = 98;
 
 
