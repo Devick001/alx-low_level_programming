@@ -1,20 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * reset_to_98 - Takes a pointer to an int
+ * reset_to_98 - Takes a pointer to an int as a parameter
+ * @n: An intiger pointer
  *
- * Description: Learning pointers in C
- * Return: Always 0.
+ *Return: 0 Always.
  */
 
-void reset_to_98(int *myPar)
-
+void reset_to_98(int *n)
 {
-	int *n;
+	int num;
 
-	n = 98;
+	n = &num;
 
-
-	return (0);
+	*n = 98;
 }
