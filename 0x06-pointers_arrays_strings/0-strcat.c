@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * *_strcat - Concantinates two strings
  * @*dest: Takes one of the strigs
