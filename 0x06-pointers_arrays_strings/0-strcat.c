@@ -1,9 +1,9 @@
 #include "main.h"
 #include <string.h>
 /**
- * *_strcat - Concantinates two strings
- * @*dest: Takes one of the strigs
- * @*src: Takes the second string.
+ * _strcat - Concantinates two strings
+ * @dest: Takes one of the strigs
+ * @src: Takes the second string.
  *
  * Return: Always 0.
  */
