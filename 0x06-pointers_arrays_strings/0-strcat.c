@@ -5,7 +5,7 @@
  * @dest: Takes one of the strigs
  * @src: Takes the second string.
  *
- * Return: Always 0.
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
@@ -14,5 +14,5 @@ char *_strcat(char *dest, char *src)
 
 	_putchar(*dest);
 
-	return (0);
+	return (dest);
 }
