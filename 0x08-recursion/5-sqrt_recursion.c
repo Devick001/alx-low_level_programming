@@ -1,27 +1,81 @@
 #include "main.h"
 
 /**
- *_strlen_recursion - length of a string
- *@s: pointer block of memory to fill
- *Return: strlen_recursion
+ *_evaluate - evaluate function sqrt
+
+ *@i: interger
+ *@n: interger
+ *Return: evaluate sqrt
  */
 
-int _strlen_recursion(char *s)
+int _evaluate(int i, int n)
 
 {
 
+/*Evaluate function*/
+
+if (n == 0 || n == 1)
+
+return (n);
 
 
-/*Base condition*/
 
-if (*s == '\0')
+else if (i * i < n)
 
-return (0);
+return (_evaluate(i + 1, n));
+
+
+
+else if (i * i == n) /*Condiction base*/
+
+return (i);
+
+
+
+return (-1);
+
+
+
+return (-1);
+
+}
+
+
+
+/**
+
+ *_sqrt_recursion - evaluate sqrt
+
+ *@n: interger
+
+ *Return: Sgrt_recursion
+
+*/
+
+
+
+int _sqrt_recursion(int n)
+
+{
+
+int i = 0;
+
+
+
+if (i < 0) /*If n is negative*/
+
+return (-1);
 
 
 
 else
 
-return (1 + _strlen_recursion(s + 1)); /*Sum 1*/
+{
+
+return (_evaluate(i, n)); /*Recursive call*/
+
+}
+
+
 
 }
