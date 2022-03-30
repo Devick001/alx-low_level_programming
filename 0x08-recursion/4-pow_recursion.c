@@ -13,5 +13,5 @@
 	
 		if (y < 0)
 			return (-1);
-		return pow(x, y);
+		return _pow_recursion(pow(x, y));
 }
