@@ -9,10 +9,7 @@
  */
 
 int _evaluate(int i, int n)
-
 {
-
-/*Evaluate function*/
 
 if (n == 0 || n == 1)
 
@@ -43,13 +40,9 @@ return (-1);
 
 
 /**
-
  *_sqrt_recursion - evaluate sqrt
-
  *@n: interger
-
  *Return: Sgrt_recursion
-
 */
 
 
