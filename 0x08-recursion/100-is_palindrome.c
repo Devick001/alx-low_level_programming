@@ -3,6 +3,7 @@
 /**
  * _strlen_recursion - size
  * @s: pointer to string params
+ *
  * Return: recursion
  */
 
@@ -30,8 +31,6 @@ int _strlen_recursion(char *s)
  * @l: position
  * Return: boolena
  */
-
-
 
 int p1(char *s, int l)
 
@@ -62,16 +61,10 @@ int p1(char *s, int l)
 
 
 /**
-
  * is_palindrome - palindrome
-
  * @s: pointer to string
-
  * Return: recursion
-
  */
-
-
 
 int is_palindrome(char *s)
 
