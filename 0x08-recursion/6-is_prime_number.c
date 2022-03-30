@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
-
  *evaluate_num - recursion loop
  *@num: num
  *@iterator: number to iterate
